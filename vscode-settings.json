@@ -1,0 +1,37 @@
+{
+  "workbench.colorTheme": "Visual Studio 2019 Dark",
+
+  "vim.vimrc.enable": true,
+  "vim.vimrc.path": "C:\\Users\\Muhammed\\.vimrc",
+  "editor.wordWrap": "on",
+  "vim.useSystemClipboard": true,
+  "editor.fontSize": 16,
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "git.enableSmartCommit": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDelete": false,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "eslint.format.enable": true,
+  "eslint.run": "onSave",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "always",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "files.autoSaveWhenNoErrors": true,
+  "claudeCode.preferredLocation": "panel"
+}
