@@ -13,11 +13,11 @@
   "git.enableSmartCommit": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.iconTheme": "material-icon-theme",
-  "explorer.confirmDelete": false,
+  "explorer.confirmDelete": true,
   "[csharp]": {
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
-  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.untrustedFiles": "prompt",
   "eslint.format.enable": true,
   "eslint.run": "onSave",
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -34,7 +34,7 @@
   "editor.formatOnSave": true,
   "files.autoSaveWhenNoErrors": true,
   "claudeCode.preferredLocation": "panel",
-    "files.eol": "\n",
+  "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true
 }
