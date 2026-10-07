@@ -7,3 +7,13 @@ if [ $? -eq 2 ]; then
     rm -f "$SSH_AUTH_SOCK"
     eval "$(ssh-agent -s -a "$SSH_AUTH_SOCK")" >/dev/null
 fi
+# --- gecmis (history) ---
+HISTSIZE=10000
+HISTFILESIZE=20000
+HISTCONTROL=ignoreboth:erasedups
+shopt -s histappend
+PROMPT_COMMAND="history -a${PROMPT_COMMAND:+; $PROMPT_COMMAND}"
+
+# --- kisa yollar (alias) ---
+alias ll='ls -lah'
+alias proje='cd ~/projects/muhammedogur.com'
