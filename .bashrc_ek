@@ -17,4 +17,6 @@ PROMPT_COMMAND="history -a${PROMPT_COMMAND:+; $PROMPT_COMMAND}"
 # --- kisa yollar (alias) ---
 alias ll='ls -lah'
 alias proje='cd ~/projects/muhammedogur.com'
-alias wproje='cd /mnt/c/Users/Muhammed/Claude/TemellerKocu/'
+# --- Windows ev dizini (makineye göre: Muhammed / muham) ---
+WINHOME="$(wslpath "$(cmd.exe /c 'echo %USERPROFILE%' 2>/dev/null | tr -d '\r')")"
+alias wproje='cd "$WINHOME/Claude/TemellerKocu/"'
