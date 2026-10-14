@@ -20,3 +20,4 @@ set nobomb
 
 " --- pano (Windows vim'de calisir; WSL'de dogrulanmadi) ---
 set clipboard=unnamed
+inoremap jk <Esc>

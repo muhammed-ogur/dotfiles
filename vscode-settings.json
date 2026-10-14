@@ -2,7 +2,6 @@
   "workbench.colorTheme": "Visual Studio 2019 Dark",
 
   "vim.vimrc.enable": true,
-  "vim.vimrc.path": "\\\\wsl.localhost\\Ubuntu-26.04\\home\\muhammed\\dotfiles\\.vimrc",
   "editor.wordWrap": "on",
   "vim.useSystemClipboard": true,
   "editor.fontSize": 16,
