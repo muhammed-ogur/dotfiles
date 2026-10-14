@@ -36,5 +36,7 @@
   "claudeCode.preferredLocation": "panel",
   "files.eol": "\n",
   "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+  "editor.inlineSuggest.enabled": false,
+  "chat.disableAIFeatures": true
 }
