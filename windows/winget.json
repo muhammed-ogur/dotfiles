@@ -1,0 +1,40 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-13T22:00:00.000+03:00",
+  "Sources": [
+    {
+      "Packages": [
+        { "PackageIdentifier": "Google.Chrome" },
+        { "PackageIdentifier": "Bitwarden.Bitwarden" },
+        { "PackageIdentifier": "Microsoft.PowerToys" },
+        { "PackageIdentifier": "Notepad++.Notepad++" },
+        { "PackageIdentifier": "VideoLAN.VLC" },
+        { "PackageIdentifier": "Obsidian.Obsidian" },
+        { "PackageIdentifier": "Git.Git" },
+        { "PackageIdentifier": "Microsoft.VisualStudioCode" },
+        { "PackageIdentifier": "Adobe.Acrobat.Reader.64-bit" },
+        { "PackageIdentifier": "Anthropic.Claude" },
+        { "PackageIdentifier": "Google.GeminiDesktop" },
+        { "PackageIdentifier": "Google.Antigravity" }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    },
+    {
+      "Packages": [
+        { "PackageIdentifier": "9PLM9XGG6VKS" }
+      ],
+      "SourceDetails": {
+        "Argument": "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+        "Identifier": "StoreEdgeFD",
+        "Name": "msstore",
+        "Type": "Microsoft.Rest"
+      }
+    }
+  ],
+  "WinGetVersion": "1.29.380"
+}
