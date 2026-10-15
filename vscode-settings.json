@@ -1,11 +1,9 @@
 {
-  "workbench.colorTheme": "Visual Studio 2019 Dark",
-
+  "workbench.colorTheme": "Everforest Dark",
   "vim.vimrc.enable": true,
-  "editor.wordWrap": "on",
+  "editor.wordWrap": "bounded",
   "vim.useSystemClipboard": true,
-  "editor.fontSize": 16,
-
+  "editor.fontSize": 15,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -37,5 +35,50 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "editor.inlineSuggest.enabled": false,
-  "chat.disableAIFeatures": true
+  "chat.disableAIFeatures": true,
+  "everforest.darkContrast": "soft",
+  "everforest.highContrast": false,
+  "everforest.diagnosticTextBackgroundOpacity": "0%",
+  "workbench.colorCustomizations": {
+    "[Everforest Dark]": {
+      "editorCursor.foreground": "#A7C080",
+      "terminalCursor.foreground": "#A7C080",
+      "editor.lineHighlightBackground": "#343F4480",
+      "editor.lineHighlightBorder": "#00000000",
+      "focusBorder": "#00000000",
+      "editorBracketMatch.border": "#7FBBB355"
+    }
+  },
+  "editor.fontFamily": "'JetBrainsMono NFM', Consolas, 'Courier New', monospace",
+  "editor.fontWeight": "450",
+  "editor.lineHeight": 1.45,
+  "editor.letterSpacing": 0.3,
+  "editor.padding.top": 40,
+  "editor.padding.bottom": 40,
+  "editor.wordWrapColumn": 90,
+  "editor.cursorSurroundingLines": 10,
+  "workbench.sideBar.location": "right",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "gutter",
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
+  "breadcrumbs.enabled": false,
+  "window.commandCenter": false,
+  "zenMode.centerLayout": true,
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.showTabs": "single",
+  "terminal.integrated.fontFamily": "'JetBrainsMono NFM', Consolas, monospace",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.25,
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.defaultLocation": "panel"
 }
