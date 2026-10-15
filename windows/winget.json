@@ -8,6 +8,7 @@
         { "PackageIdentifier": "Bitwarden.Bitwarden" },
         { "PackageIdentifier": "Microsoft.PowerToys" },
         { "PackageIdentifier": "Notepad++.Notepad++" },
+        { "PackageIdentifier": "DEVCOM.JetBrainsMonoNerdFont" }, 
         { "PackageIdentifier": "VideoLAN.VLC" },
         { "PackageIdentifier": "Obsidian.Obsidian" },
         { "PackageIdentifier": "Git.Git" },
