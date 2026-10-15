@@ -1,0 +1,96 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{a977d5a1-ce20-5273-aee3-cd390d7859c0}",
+    "keybindings": [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "colorScheme": "Everforest Dark Soft",
+            "cursorShape": "filledBox",
+            "font": {
+                "face": "JetBrainsMono NFM",
+                "size": 13.5,
+                "weight": "medium",
+                "cellHeight": "1.25"
+            },
+            "padding": "80, 48, 80, 24",
+            "opacity": 100,
+            "useAcrylic": false,
+            "scrollbarState": "hidden",
+            "intenseTextStyle": "none"
+        },
+        "list": [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{a977d5a1-ce20-5273-aee3-cd390d7859c0}",
+                "hidden": false,
+                "name": "Ubuntu-26.04",
+                "source": "Microsoft.WSL"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "Everforest Dark Soft",
+            "background": "#2D353B",
+            "foreground": "#D3C6AA",
+            "cursorColor": "#A7C080",
+            "selectionBackground": "#475258",
+            "black": "#343F44",
+            "red": "#E67E80",
+            "green": "#A7C080",
+            "yellow": "#DBBC7F",
+            "blue": "#7FBBB3",
+            "purple": "#D699B6",
+            "cyan": "#83C092",
+            "white": "#D3C6AA",
+            "brightBlack": "#475258",
+            "brightRed": "#E67E80",
+            "brightGreen": "#A7C080",
+            "brightYellow": "#DBBC7F",
+            "brightBlue": "#7FBBB3",
+            "brightPurple": "#D699B6",
+            "brightCyan": "#83C092",
+            "brightWhite": "#DFDDC8"
+        }
+    ],
+    "themes": []
+}
