@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Everforest Dark",
+  "workbench.colorTheme": "Catppuccin Macchiato",
   "vim.vimrc.enable": true,
   "editor.wordWrap": "bounded",
   "vim.useSystemClipboard": true,
@@ -80,5 +80,12 @@
   "terminal.integrated.lineHeight": 1.25,
   "terminal.integrated.cursorBlinking": false,
   "terminal.integrated.cursorStyle": "block",
-  "terminal.integrated.defaultLocation": "panel"
+  "terminal.integrated.defaultLocation": "panel",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "emmet.variables": {
+    "lang": "tr"
+  }
 }
