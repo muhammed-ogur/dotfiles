@@ -23,7 +23,9 @@
         { "PackageIdentifier": "ShareX.ShareX" },
         { "PackageIdentifier": "Stretchly.Stretchly" },
         { "PackageIdentifier": "OBSProject.OBSStudio" },
-        { "PackageIdentifier": "OpenAI.Codex" }
+        { "PackageIdentifier": "OpenAI.Codex" },
+        { "PackageIdentifier": "Google.GoogleDrive" },
+        { "PackageIdentifier": "WisprFlow.WisprFlow" }
       ],
       "SourceDetails": {
         "Argument": "https://cdn.winget.microsoft.com/cache",

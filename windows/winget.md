@@ -25,5 +25,7 @@ Kurulum: `winget import -i windows/winget.json` (PowerShell). Yeni paket eklenin
 | Google.GeminiDesktop | Gemini | Google Gemini masaüstü uygulaması |
 | Google.Antigravity | Antigravity | Google'ın AI destekli geliştirme ortamı (Temeller'de B16'ya kadar kod yazdırmada kullanılmaz) |
 | OpenAI.Codex | Codex CLI | OpenAI terminal kod asistanı (Temeller'de B16'ya kadar kullanılmaz) |
+| Google.GoogleDrive | Google Drive | Drive klasörlerini bilgisayarla eşitler (koç dosyaları Drive'dan da açılır) |
+| WisprFlow.WisprFlow | Wispr Flow | Sesle yazma (dikte); kapanıştaki sesli konuşma ve uzun metinler için |
 
 Windows Sandbox winget paketi değildir: Windows özelliği olarak açılır (Pro sürüm).
