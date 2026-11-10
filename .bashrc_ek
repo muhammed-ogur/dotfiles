@@ -20,3 +20,5 @@ alias proje='cd ~/projects/muhammedogur.com'
 # --- Windows ev dizini (makineye göre: Muhammed / muham) ---
 WINHOME="$(wslpath "$(cmd.exe /c 'echo %USERPROFILE%' 2>/dev/null | tr -d '\r')")"
 alias wproje='cd "$WINHOME/Claude/TemellerKocu/"'
+alias wvault='cd "$WINHOME/Vault/"'
+alias wagentic='cd "$WINHOME/Claude/AgenticUsta/"'
